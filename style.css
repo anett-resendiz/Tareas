@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --color-primario: #582770;
     --color-secundario: #fb7991;
@@ -83,7 +89,7 @@ body {
     margin: 5px 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .tareas i:hover {
@@ -92,5 +98,5 @@ body {
 
 .tachado {
     text-decoration: line-through;
-    color: #eb214e;
+    color: #000000;
 }
